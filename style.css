@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+    font-family: Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: orangered;
+}
+
+hr{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 600px;
+    border: 1px solid saddlebrown;
+}
+
+#errors{
+    color: indigo;
+}
+
+#board{
+    width: 30rem;
+    height: 30.8rem;
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:aliceblue;
+}
+.tile{
+    width: 3.2rem;
+    height: 3.3rem;
+    border: 1px solid salmon;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits{
+    width: 30rem;
+    height: 3rem;
+    background-color:azure;
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number{
+    width: 3.2rem;
+    height: 3rem;
+    border: 1px solid firebrick;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected{
+    background-color: black;
+}
+
+.tile-start{
+    background-color: rgb(238, 219, 219);
+}
+
+.horizontal-line{
+    border-bottom: 1px solid black;
+}
+
+.vertical-line{
+    border-right: 1px solid black;
+}
